@@ -79,3 +79,46 @@ PRODUCT_PACKAGES += \
     libswspatializer \
     libswvqe 
 
+=======
+    $(DOLBY_PATH)/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/soundfx/libhwdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhwdap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ac4dec.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_ddpdec.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libhwdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhwdap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libdlbpreg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbpreg.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswspatializer.so \
+    $(DOLBY_PATH)/proprietary/vendor/lib64/soundfx/libdlbvol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdlbvol.so \
+
+# LDAC/LHDC Proprietary Blobs
+PRODUCT_COPY_FILES += \
+    hardware/dolby/ldac/system/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_abr.so \
+    hardware/dolby/ldac/system/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/libldacBT_enc.so \
+    hardware/dolby/ldac/system/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_abr.so \
+    hardware/dolby/ldac/system/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libldacBT_enc.so \
+    hardware/dolby/ldac/system_ext/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdc.so \
+    hardware/dolby/ldac/system_ext/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcBT_enc.so \
+    hardware/dolby/ldac/system_ext/lib/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcv5.so \
+    hardware/dolby/ldac/system_ext/lib/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblhdcv5BT_enc.so \
+    hardware/dolby/ldac/system_ext/lib64/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdc.so \
+    hardware/dolby/ldac/system_ext/lib64/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcBT_enc.so \
+    hardware/dolby/ldac/system_ext/lib64/liblhdcv5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcv5.so \
+    hardware/dolby/ldac/system_ext/lib64/liblhdcv5BT_enc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblhdcv5BT_enc.so \
+>>>>>>> beef2e2 (dolby: Add LDAC & LHDC codecs)
